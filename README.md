@@ -1,24 +1,15 @@
-Project Overview
-
+**Project Overview**
 This project analyzes YouTube Shorts data to predict whether a video will have high engagement based on its metadata. The dataset is fetched using the YouTube Data API v3, and includes the following columns:
-
-videoId – Unique ID of the video
-
-title – Video title
-
-publishedAt – Timestamp of when the video was published
-
-likeCount – Number of likes
-
-commentCount – Number of comments
-
-viewCount – Number of views
-
-fetchDate – Date the data was collected
-
+- `videoId` – Unique ID of the video
+- `title` – Video title
+- `publishedAt` – Timestamp of when the video was published
+- `likeCount` – Number of likes
+- `commentCount` – Number of comments
+- `viewCount` – Number of views
+- `fetchDate` – Date the data was collected
 The goal is to preprocess the data, extract meaningful features, and train a logistic regression model to classify videos as high or low engagement.
 
-Data Preprocessing
+###Data Preprocessing
 
 Datetime Conversion
 
